@@ -79,10 +79,13 @@ p {
     width: 15px;
     height: 15px;
     background-image: url('P.png'); /* Ganti dengan ikon bunga kecil, bisa png transparan */
-    background-size: contain;
+    background-size: cover; /* Supaya penuh menyesuaikan lingkaran */
     background-repeat: no-repeat;
     top: -20px;
     opacity: 0.8;
+
+    border-radius: 50%; /* Membuat bentuk lingkaran */
+
     animation-name: floatFlower;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
