@@ -8,7 +8,7 @@ body {
     align-items: center;
 
     /* Background */
-    background: url('img/N.png') no-repeat center center fixed;
+    background: url('N.png') no-repeat center center fixed;
     background-size: cover;          /* Isi penuh layar */
     background-color: #000;          /* Warna cadangan kalau ada space */
     color: #fff;
@@ -78,7 +78,7 @@ p {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-image: url('img/P.png'); /* Ganti dengan ikon bunga kecil, bisa png transparan */
+    background-image: url('P.png'); /* Ganti dengan ikon bunga kecil, bisa png transparan */
     background-size: contain;
     background-repeat: no-repeat;
     top: -20px;
